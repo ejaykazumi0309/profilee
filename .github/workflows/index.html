@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ejay Rosete</title>
+  <style>
+    body {
+  margin: 0;
+  background-color: #121212;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: #1e1e1e;
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.2em;
+  letter-spacing: 0.3em;
+}
+
+nav a {
+  color: white;
+  margin-left: 2em;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.intro {
+  text-align: center;
+  padding: 3em 1em;
+}
+
+.intro h2 {
+  font-size: 2em;
+}
+
+.intro img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-top: 1em;
+}
+
+.intro p {
+  margin-top: 1em;
+  font-size: 1.1em;
+  color: #ccc;
+  word-wrap: break-word; /* Ensures long words are broken */
+  overflow-wrap: break-word; /* For extra-long words */
+  white-space: normal; /* Ensure text wraps and doesn't overflow */
+}
+
+.cert-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+}
+
+.cert-card {
+  display: flex;
+  background-color: #1a1a1a;
+  margin: 2em 0;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 1000px;
+  width: 90%;
+  box-shadow: 0 0 10px #000;
+}
+
+.cert-card img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.cert-content {
+  padding: 2em;
+  width: 50%;
+}
+
+.cert-content h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.cert-content p {
+  font-size: 0.95em;
+  color: #ccc;
+  line-height: 1.5em;
+  word-wrap: break-word; /* Ensures text wraps */
+  overflow-wrap: break-word; /* For extra-long words */
+  white-space: normal; /* Ensure text wraps and doesn't overflow */
+}
+
+.verify-btn {
+  display: inline-block;
+  margin-top: 1.5em;
+  padding: 0.5em 1.5em;
+  background-color: #333;
+  color: #29ff8e;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+@media (max-width: 768px) {
+  .cert-card {
+    flex-direction: column;
+  }
+  .cert-card img, .cert-content {
+    width: 100%;
+  }
+
+  .intro h2 {
+    font-size: 1.5em;
+  }
+
+  .intro p {
+    font-size: 1em; /* Slightly smaller text on mobile */
+  }
+
+  .cert-content p {
+    font-size: 0.9em; /* Adjust font size for better readability */
+  }
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EJAY ROSETE</h1>
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">STORY</a>
+      <a href="#">HACKING</a>
+    </nav>
+  </header>
+
+  <section class="intro">
+    <h2>&gt;Hi, I am Ejay!</h2>
+    <img src="profile.jpg" alt="Profile Image">
+    <p>Future Penetration Tester | Cybersecurity</p>
+    <p>OSCP+ | CRTO | CEH | eWPT | eCPPT | OSWP</p>
+  </section>
+
+  <section class="cert-section">
+
+    <div class="cert-card">
+        <img src="tesda.jpeg" alt="Certified Red Team Operator">
+        <div class="cert-content">
+          <h3>NCII Certificate (CSS)</h3>
+          <p>An NCII (National Certificate Level II) is a certification issued by the Technical Education and Skills Development Authority (TESDA) in the Philippines, verifying an individual's competency in a specific trade or occupation. It signifies that the holder has successfully completed a training program and passed a competency assessment, demonstrating the necessary skills and knowledge for that trade.</p>
+          <a href="#" class="verify-btn">VERIFY</a>
+        </div>
+      </div>
+
+    <div class="cert-card">
+      <img src="firstcer.jpeg" alt="Foundations and Reconnaissance Techniques">
+      <div class="cert-content">
+        <h3>Foundations and Reconnaissance Techniques</h3>
+        <p>Through Coursera, I developed the persistence, creativity, and analytical skills necessary to identify vulnerabilities and execute structured attacks under tight time constraints, aligning with OSCP-level capabilities. They can:</p>
+        <ul>
+          <li>Leverage information gathering to identify and enumerate targets</li>
+          <li>Develop and use custom scripts to support the penetration testing process</li>
+          <li>Adapt and utilize publicly available exploit code</li>
+          <li>Escalate privileges and exploit client-side vulnerabilities</li>
+        </ul>
+        <a href="https://www.coursera.org/account/accomplishments/verify/8NNIPO97IPVR" class="verify-btn">VERIFY</a>
+      </div>
+    </div>
+
+
+    <div class="cert-card">
+        <img src="lala.png" alt="UPCOMING (TAKING EXAMINATION && EVALUATION)">
+        <div class="cert-content">
+          <h3>(Evaluation) Penetration Testing, Threat Hunting, and Cryptography</h3>
+          <p>As a holder of the IBM Penetration Testing, Threat Hunting, and Cryptography Certificate, I demonstrate foundational knowledge in ethical hacking, proactive threat detection, and cryptographic security. This includes the ability to conduct penetration tests, hunt for advanced threats within networks, and apply cryptographic techniques to protect data—while adhering to cybersecurity best practices and maintaining operational integrity.</p>
+          <a href="https://www.coursera.org/learn/ibm-penetration-testing-threat-hunting-cryptography/peer/zgzvj/final-project-submission-and-evaluation/review/pjABBCzXEfCitg4y1ilcAQ" class="verify-btn">VERIFY</a>
+        </div>
+      </div>
+
+
+    <div class="cert-card">
+      <img src="lala2.png" alt="SOON">
+      <div class="cert-content">
+        <h3>(SOON) CompTia PenTest+</h3>
+        <p>CompTIA PenTest+ certification have the knowledge and skills necessary to perform hands-on penetration testing to identify, exploit, report, and manage vulnerabilities on a network. CompTIA PenTest+ professionals have demonstrated the hands-on ability and knowledge to test devices in new environments such as the cloud and mobile, in addition to traditional desktops and servers.</p>
+        <a href="#" class="verify-btn">VERIFY</a>
+      </div>
+    </div>
+
+    <div class="cert-card">
+        <img src="lala2.png" alt="SOON">
+        <div class="cert-content">
+          <h3>(SOON) Google Cyber security</h3>
+          <p>CompTIA PenTest+ certification have the knowledge and skills necessary to perform hands-on penetration testing to identify, exploit, report, and manage vulnerabilities on a network. CompTIA PenTest+ professionals have demonstrated the hands-on ability and knowledge to test devices in new environments such as the cloud and mobile, in addition to traditional desktops and servers.</p>
+          <a href="#" class="verify-btn">VERIFY</a>
+        </div>
+      </div>
+
+  </section>
+</body>
+</html>
